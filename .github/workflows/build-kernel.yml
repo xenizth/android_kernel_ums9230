@@ -6,7 +6,7 @@ on:
       ksu_version:
         description: "KernelSU-Next tag/branch to use (e.g. v3.4.1, dev, stable). Type 'none' to skip and keep the KernelSU already in the repo"
         required: false
-        default: "v3.4.1-legacy"
+        default: "v3.4.0-legacy"
         type: string
   push:
     branches: [ master ]
